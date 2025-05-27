@@ -66,11 +66,13 @@ pip install tabulate
 5. Wait for training which can take up to 2-3 hours
 6. It will notify once it is done and the model will be saved as "deeplearning_vit.pt"
 
+Note that to change the filenames of the models and csv in your directory
+
 ## Instructions to run demo_deeplearning_vit.ipynb
 1. Make sure you installed all packages and dependencies
 2. Find the variables:
  "image_dir" - makesure this is the file name of the file folder of the tests
- "model_path" - makesure this is the file name of the model, (usually "deeplearning_vit.pt"
+ "model_path" - makesure this is the file name of the model, usually "deeplearning_vit.pt"
 3. Once changed to the correct file, click Run All
 4. Wait for the print to ensure that predictions is already done and saved in the csv "deeplearning_vit_predictions.csv"
 
