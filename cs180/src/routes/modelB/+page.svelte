@@ -13,7 +13,7 @@
         <img src="/vit.png" alt="ViT Model" class="w-full h-auto my-4 rounded-lg shadow-lg">
 
         <p class="font-mono text-4xl font-bold py-2 px-4">Step 3. Training the Model</p>
-        <p class="font-mono text-lg py-2 px-4 text-justify">Training the model, we used 200 epochs since training ViT models from scratch needs alot of epochs to learn. ViT also needs alot of dataset, but currently we have very little which is why the 200 epoch and patience will be high. Per epoch, validity accuracy and loss, as well as train accuracy and loss is printed to check for overfitting and plateus for manual stopping</p>
+        <p class="font-mono text-lg py-2 px-4 text-justify">Training the model, we used 200 epochs since training ViT models from scratch needs alot of epochs to learn. ViT also needs alot of dataset, but currently we have very little which is why the 200 epoch and patience will be high. Per epoch, validity accuracy and loss, as well as train accuracy and loss is printed to check for overfitting and plateus for manual stopping.</p>
 
         <p class="font-mono text-4xl font-bold py-2 px-4">Step 4. Evaluating the Model</p>        
         <p class="font-mono text-lg py-2 px-4 text-justify">Evaluatiung the model through accuracy, F1 scores, stabiility, recall and specificity per class is printed at the end of this notebook. With this evaluation we are able to evaluate the performance of the model per class, knowing which class has a harder time to recognize by the model. Evaluating also includes the graph for the Train vs Validity values aswell as the confusion matrices, which finds overfitting and find the models confusion between classes.</p>
