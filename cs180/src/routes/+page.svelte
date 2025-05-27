@@ -9,6 +9,12 @@
         </ul>
         
         
+        <p class="font-mono text-5xl font-bold py-2 px-4">Background</p>
+        <p class="font-mono text-4xl font-bold py-2 px-4">Problem</p>
+        <p class="font-mono text-lg py-2 px-4 text-justify">Potato plants are highly susceptible to a wide range of diseases and pests that pose serious challenges for farmers. Among the most common threats are bacterial infections, fungal outbreaks, viruses, pests such as insects and nematodes, and aggressive water molds like Phytophthora. Each of these diseases presents itself in different ways, from leaf spots and wilting to tuber rot and stunted growth, making diagnosis and treatment difficult. For instance, late blight, caused by Phytophthora infestans, can devastate entire fields in just a few days under the right conditions, while bacterial soft rot can destroy stored potatoes, leading to post-harvest losses. Viral infections often go unnoticed until yield and quality are significantly reduced. These problems not only impact the health and productivity of the plants but also threaten the livelihood of farmers, who may face reduced yields, increased costs for chemical treatments, and even complete crop failure. The unpredictability and diversity of these threats demand constant vigilance, effective disease management strategies, and access to reliable agricultural support systems.</p>
+        <p class="font-mono text-4xl font-bold py-2 px-4">Goal</p>
+        <p class="font-mono text-lg py-2 px-4 text-justify">Classify an image of a potato leaf as healthy or showing signs of a specific disease (e.g., Bacteria, Pest, etc.) using computer vision, modeled with deep learning-based architectures. Automate and accelerate disease detection to support farmers with early diagnosis and crop protection.</p>
+
         <p class="font-mono text-5xl font-bold py-2 px-4">Sample Images</p>
         <p class="font-mono text-lg py-2 px-4 text-justify">Below is a sample healthy potato leaf:</p>
         <img src="/healthy.jpeg" alt="healthy" class="w-full h-auto my-4 rounded-lg shadow-lg">
